@@ -1,16 +1,22 @@
 {
-  "name": "1test",
+  "name": "naturs",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Learn Node, Express and mongoDB",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Kamranullah Hakimi",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "uuid": "^9.0.0"
+    "mongoose": "^5.13.17",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "slugify": "^1.6.6",
+    "validator": "^13.9.0"
   }
 }
